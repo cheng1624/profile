@@ -24,19 +24,45 @@ Portfolio:hover {
   font-family:sans-serif;
 }
 
+.Intro {
+  font-size: large;
+  font-weight: bold;
+  padding-top: 70px;
+  padding-left:32%;
+  padding-right: 32%;
+  font-family:monospace;
+  line-height: 1.5;
+
+}
 .body
 {
-  padding-left:20%;
-  padding-right: 20%;
+  padding-left:30%;
+  padding-right: 30%;
   font-size: large;
-  font-family: times;
+  font-family:monospace;
+  padding-bottom: 70px;
+  line-height: 1.4;
 
   /*Courier New, monospace;*/
 }
 
-body {
-    background-color: #f1f1f1;
-    padding: 20px;
+.Contact {
+  font-size: large;
+  font-weight: bold;
+  padding-top: 20px;
+  font-family:monospace;
+  line-height: 1.5;
+
+}
+.contact
+{
+  padding-left:30%;
+  padding-right: 30%;
+  font-size: large;
+  font-family:monospace;
+  line-height: 1.4;
+
+  /*Courier New, monospace;*/
 }
 
 .App-header {
@@ -59,7 +85,7 @@ body {
   background-color: #ffc9a1;
   background-size: cover;
   background-attachment: fixed;
-  background-position: center;;
+  background-position: center;
   background-repeat: no-repeat;
   height: 600px;
   padding-top: 300px;
@@ -69,23 +95,12 @@ body {
 
 /* Portfolio */
 .App-header3 {
-  background-color:black;
-  background-size: cover;
-  height: 500px;
-  padding-top: 200px;
-  color: white;
-  font-size: 5em;
-}
-
-.Space {
-  background-color: f1f1f1;
-}
-/* contact */
-.App-header4 {
-  background-color:lightblue;
+  background-image: url("./profile/IMG_1577.jpg");
+  background-blend-mode: multiply;
+  background-color: #F5F5DC;
   background-size: cover;
   background-attachment: fixed;
-  background-position: center;;
+  background-position: center;
   background-repeat: no-repeat;
   height: 500px;
   padding-top: 200px;
@@ -93,7 +108,33 @@ body {
   font-size: 5em;
 }
 
+body {
+  background-color: f1f1f1;
+}
+/* contact */
+.App-header4 {
+  background-image: url("./profile/IMG_0458.jpg");
+  background-blend-mode: multiply;
+  background-color: 	#FFE4C4;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  padding-top: 200px;
+  color: white;
+  font-size: 5em;
+}
 
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: salmon;
+}
 
 @media only screen and (max-device-width: 1366px) {
     .parallax {
@@ -125,7 +166,7 @@ body {
 
 footer {
   background-color: salmon;
-  height:500px;
+  height:100px;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;;

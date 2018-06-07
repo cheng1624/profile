@@ -22,12 +22,15 @@ import hands from './portfolio/IMG_7917.JPG';
 import girl from './portfolio/IMG_4857.jpg';
 import four from './portfolio/IMG_0330.jpg';
 import lights from './portfolio/IMG_3445.JPG';
+import jean from './portfolio/IMG_2376.JPG';
+import blind from './portfolio/IMG_2100.JPG';
 
 
 class App extends Component {
   render() {
     return (
       <div className="App">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
       <link rel="icon" href="logo" />
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
@@ -39,20 +42,19 @@ class App extends Component {
             <li><a href="#contact">CONTACT</a></li>
           </ul>
         </header>
-        <p className="body"></p>
         <header className="App-header2">
           <a name="about"></a>
           <h2 className="heading">
             ABOUT
           </h2>
         </header>
+        <p className="Intro">
+        I am a 16 year old designer and developer based in sunny San Diego.
+        </p>
         <p className="body">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-          fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+        After studying traditional art for 10 years, I made the switch to degital art and design.
+        My love for subtle details, visual communication, and pleasing aesthetics led me to UX design and now I am part
+        of an internation group of high schoolers who are ready to make something amazing.
         </p>
         <header className="App-header3">
           <h2 className="heading">
@@ -81,6 +83,8 @@ class App extends Component {
             <img src={hands} className="Portfolio"/>
             <img src={four} className="Portfolio"/>
             <img src={lights} className="Portfolio"/>
+            <img src={jean} className="Portfolio"/>
+            <img src={blind} className="Portfolio"/>
         </p>
         <header className="App-header4">
           <h2 className="heading">
@@ -88,9 +92,17 @@ class App extends Component {
             CONTACT
           </h2>
         </header>
-        <p className="body">
-          asldjfasd
+        <p className="body"></p>
+        <p className="contact">
+        If you want to talk or collaborate on awesome projects you are welcome to contact me.
         </p>
+        <p className="Contact">GRACE CHEN</p>
+        <p className="contact">UX Designer & Artist </p>
+        <p className="contact">gracechen567@gmail.com</p>
+        <p className="contact">+1 858 342 1229</p>
+        <p className="body"><a href="https://www.instagram.com/gg.creativity/" class="fa fa-instagram"></a>
+        <a href="mailto:gracechen567@gmail.com" class="fa fa-google"></a></p>
+
         <footer className="App-footer">
 
         </footer>
