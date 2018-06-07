@@ -55,7 +55,7 @@ class App extends Component {
         </p>
         <p className="body">
         After studying traditional art for 10 years, I made the switch to degital art and design.
-        My love for subtle details, visual communication, and pleasing aesthetics led me to interfacec design and now I am part
+        My love for subtle details, visual communication, and pleasing aesthetics led me to interface design and now I am part
         of an internation group of high schoolers who are ready to make something amazing.
         </p>
         <header className="App-header3">
