@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #f1f1f1;
 }
 
 .App-logo {
@@ -81,8 +82,8 @@ Portfolio:hover {
 /* About me */
 .App-header2 {
   background-blend-mode: multiply;
-  background-image: url("./profile/IMG_9381.jpg");
-  background-color: #ffc9a1;
+  background-image: url("./profile/IMG_1818.jpg");
+  background-color: #FFE4C4;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -95,9 +96,10 @@ Portfolio:hover {
 
 /* Portfolio */
 .App-header3 {
-  background-image: url("./profile/IMG_1577.jpg");
+  background-image: url("./profile/IMG_9381.jpg");
   background-blend-mode: multiply;
-  background-color: #F5F5DC;
+  background-color: #ffc9a1;
+
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -108,9 +110,6 @@ Portfolio:hover {
   font-size: 5em;
 }
 
-body {
-  background-color: f1f1f1;
-}
 /* contact */
 .App-header4 {
   background-image: url("./profile/IMG_0458.jpg");
@@ -146,9 +145,12 @@ body {
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
-    color: salmon;
+    color: #f8b01c;
 }
 
+.egg {
+  height:100px;
+}
 @media only screen and (max-device-width: 1366px) {
     .parallax {
         background-attachment: scroll;
@@ -178,13 +180,10 @@ body {
   }
 
 footer {
-  background-color: salmon;
+  background-color: #f8be41;
   height:100px;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;;
-  background-repeat: no-repeat;
 }
+
   /* li a:hover {
       background-color: black;
   }

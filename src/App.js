@@ -26,6 +26,7 @@ import jean from './portfolio/IMG_2376.JPG';
 import blind from './portfolio/IMG_2100.JPG';
 import blind2 from './portfolio/IMG_2101.jpg';
 import pearl from './portfolio/IMG_7037.jpg';
+import egg from './profile/egg.png';
 
 
 class App extends Component {
@@ -97,6 +98,7 @@ class App extends Component {
           </h2>
         </header>
         <p className="body"></p>
+        <img src={egg} className="egg"/>
         <p className="contact">
         If you want to talk or collaborate on awesome projects you are welcome to contact me.
         </p>
