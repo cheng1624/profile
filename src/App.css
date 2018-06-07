@@ -126,6 +126,19 @@ body {
   font-size: 5em;
 }
 
+.App-header5 {
+  background-image: url("./profile/IMG_8175.jpeg");
+  background-blend-mode: multiply;
+  background-color: 	#FFE4C4;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  padding-top: 200px;
+  color: white;
+  font-size: 5em;
+}
 .fa {
     padding: 20px;
     font-size: 30px;
@@ -174,7 +187,14 @@ footer {
 }
   /* li a:hover {
       background-color: black;
-  } */
+  }
+  <header className="App-header5">
+    <h2 className="heading">
+      <a name="projects"></a>
+      PROJECTS
+    </h2>
+  </header>
+  */
 
 /* #D29683
 @keyframes App-logo-spin {

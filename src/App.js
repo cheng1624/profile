@@ -24,6 +24,8 @@ import four from './portfolio/IMG_0330.jpg';
 import lights from './portfolio/IMG_3445.JPG';
 import jean from './portfolio/IMG_2376.JPG';
 import blind from './portfolio/IMG_2100.JPG';
+import blind2 from './portfolio/IMG_2101.jpg';
+import pearl from './portfolio/IMG_7037.jpg';
 
 
 class App extends Component {
@@ -53,7 +55,7 @@ class App extends Component {
         </p>
         <p className="body">
         After studying traditional art for 10 years, I made the switch to degital art and design.
-        My love for subtle details, visual communication, and pleasing aesthetics led me to UX design and now I am part
+        My love for subtle details, visual communication, and pleasing aesthetics led me to interfacec design and now I am part
         of an internation group of high schoolers who are ready to make something amazing.
         </p>
         <header className="App-header3">
@@ -76,15 +78,17 @@ class App extends Component {
             <img src={CD2} className="Portfolio"/>
             <img src={beach} className="Portfolio"/>
             <img src={Logo2} className="Portfolio"/>
-            <img src={girl} className="Portfolio"/>
+            <img src={baby} className="Portfolio"/>
             <img src={frenchie} className="Portfolio"/>
             <img src={cat} className="Portfolio"/>
-            <img src={baby} className="Portfolio"/>
-            <img src={hands} className="Portfolio"/>
+            <img src={girl} className="Portfolio"/>
+            <img src={pearl} className="Portfolio"/>
             <img src={four} className="Portfolio"/>
             <img src={lights} className="Portfolio"/>
             <img src={jean} className="Portfolio"/>
             <img src={blind} className="Portfolio"/>
+            <img src={blind2} className="Portfolio"/>
+            <img src={hands} className="Portfolio"/>
         </p>
         <header className="App-header4">
           <h2 className="heading">
@@ -97,9 +101,8 @@ class App extends Component {
         If you want to talk or collaborate on awesome projects you are welcome to contact me.
         </p>
         <p className="Contact">GRACE CHEN</p>
-        <p className="contact">UX Designer & Artist </p>
+        <p className="contact">UI Designer & Artist </p>
         <p className="contact">gracechen567@gmail.com</p>
-        <p className="contact">+1 858 342 1229</p>
         <p className="body"><a href="https://www.instagram.com/gg.creativity/" class="fa fa-instagram"></a>
         <a href="mailto:gracechen567@gmail.com" class="fa fa-google"></a></p>
 
