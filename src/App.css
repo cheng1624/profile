@@ -1,0 +1,142 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 0px;
+}
+
+.Portfolio {
+  height: 300px;
+  padding:3px;
+}
+
+Portfolio:hover {
+    background-blend-mode: multiply;
+    background-color: grey;
+}
+
+/* Grace Chen */
+.App-title {
+  font-size: 10em;
+  color: white;
+  font-family:sans-serif;
+}
+
+.body
+{
+  padding-left:20%;
+  padding-right: 20%;
+  font-size: large;
+  font-family: times;
+
+  /*Courier New, monospace;*/
+}
+
+body {
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.App-header {
+  background-blend-mode: multiply;
+  background-image: url("./profile/IMG_1398 2.JPG");
+  background-color: lightgrey;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;;
+  background-repeat: no-repeat;
+  height: 854px;
+  padding-top: 200px;
+  color: white;
+}
+
+/* About me */
+.App-header2 {
+  background-blend-mode: multiply;
+  background-image: url("./profile/IMG_9381.jpg");
+  background-color: #ffc9a1;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;;
+  background-repeat: no-repeat;
+  height: 600px;
+  padding-top: 300px;
+  color: white;
+  font-size: 5em;
+}
+
+/* Portfolio */
+.App-header3 {
+  background-color:black;
+  background-size: cover;
+  height: 500px;
+  padding-top: 200px;
+  color: white;
+  font-size: 5em;
+}
+
+.Space {
+  background-color: f1f1f1;
+}
+/* contact */
+.App-header4 {
+  background-color:lightblue;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;;
+  background-repeat: no-repeat;
+  height: 500px;
+  padding-top: 200px;
+  color: white;
+  font-size: 5em;
+}
+
+
+
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+/* Navigation Bar */
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      position: fixed;
+      bottom:25px;
+      left:35%;
+  }
+
+  li {
+      display: inline;
+  }
+
+  li a {
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+
+footer {
+  background-color: salmon;
+  height:500px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;;
+  background-repeat: no-repeat;
+}
+  /* li a:hover {
+      background-color: black;
+  } */
+
+/* #D29683
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+} */
