@@ -10,11 +10,10 @@ import heartbeat from './portfolio/digital/hearbeat-logo_1_orig.jpg';
 import calc from './portfolio/digital/Calc.jpg';
 import calc2 from './portfolio/digital/Calc2.jpg';
 import gatsby from './portfolio/digital/gatsby_orig.jpg';
-import eva from './portfolio/digital/Logo2.jpg';
+import eva from './portfolio/digital/red.jpg';
 import CD from './portfolio/digital/mockup-digipack-1_orig.jpg';
 import CD2 from './portfolio/digital/mockup-digipack-3_1_orig.jpg';
 import beach from './portfolio/digital/beach storyboard.jpg';
-import Logo2 from './portfolio/digital/Logo2.jpg';
 import cat from './portfolio/IMG_1315.JPG';
 import frenchie from './portfolio/IMG_0204.JPG';
 import baby from './portfolio/IMG_1288.JPG';
@@ -37,10 +36,11 @@ class App extends Component {
       <link rel="icon" href="logo" />
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">GRACE CHEN</h1>
+          <h1 className="App-title">GRACE </h1>
+          <h1 className="App-title"> CHEN</h1>
           <ul className="Navigation">
             <li><a href="#about">ABOUT</a></li>
-            <li><a href="#portfolio">PORTFOLIO</a></li>
+            <li><a href="#portfolio" target="_blank">PORTFOLIO</a></li>
             <li><a href="#projects">PROJECTS</a></li>
             <li><a href="#contact">CONTACT</a></li>
           </ul>
@@ -78,7 +78,7 @@ class App extends Component {
             <img src={CD} className="Portfolio"/>
             <img src={CD2} className="Portfolio"/>
             <img src={beach} className="Portfolio"/>
-            <img src={Logo2} className="Portfolio"/>
+            <img src={eva} className="Portfolio"/>
             <img src={baby} className="Portfolio"/>
             <img src={frenchie} className="Portfolio"/>
             <img src={cat} className="Portfolio"/>
@@ -100,11 +100,11 @@ class App extends Component {
         <p className="body"></p>
         <img src={egg} className="egg"/>
         <p className="contact">
-        If you want to talk or collaborate on awesome projects you are welcome to contact me.
+        If you would like to collaborate on awesome projects feel free to contact me.
         </p>
         <p className="Contact">GRACE CHEN</p>
         <p className="contact">UI Designer & Artist </p>
-        <p className="contact">gracechen567@gmail.com</p>
+        <p className="contact"><a href="mailto:gracechen567@gmail.com">gracechen567@gmail.com</a></p>
         <p className="body"><a href="https://www.instagram.com/gg.creativity/" class="fa fa-instagram"></a>
         <a href="mailto:gracechen567@gmail.com" class="fa fa-google"></a></p>
 
@@ -114,6 +114,7 @@ class App extends Component {
       </div>
 
     );
+
   }
 }
 
