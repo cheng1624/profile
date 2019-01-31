@@ -167,7 +167,7 @@ Portfolio:hover {
       padding-top: 30px;
       overflow: hidden;
       position: fixed;
-      bottom:10px;
+      bottom: 0px;
       background-color: #f8be41;
       height:8%;
       width: 100%;
