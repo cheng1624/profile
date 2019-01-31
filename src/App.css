@@ -23,6 +23,9 @@ Portfolio:hover {
   font-size: 10em;
   color: white;
   font-family:sans-serif;
+  text-align: left;
+  line-height: 50px;
+
 }
 
 .Intro {
@@ -62,17 +65,17 @@ Portfolio:hover {
   font-size: large;
   font-family:monospace;
   line-height: 1.4;
+  color: black;
 
   /*Courier New, monospace;*/
 }
 
 .App-header {
   background-blend-mode: multiply;
-  background-image: url("./profile/IMG_1398 2.JPG");
-  background-color: lightgrey;
+  background-image: url("./profile/IMG_2270.jpg");
   background-size: cover;
   background-attachment: fixed;
-  background-position: center;;
+  background-position: center;
   background-repeat: no-repeat;
   height: 854px;
   padding-top: 200px;
@@ -161,11 +164,14 @@ Portfolio:hover {
   ul {
       list-style-type: none;
       margin: 0;
-      padding: 0;
+      padding-top: 30px;
       overflow: hidden;
       position: fixed;
-      bottom:25px;
-      left:35%;
+      bottom:0px;
+      background-color: #f8be41;
+      height:8%;
+      width: 100%;
+      text-align: center;
   }
 
   li {
@@ -175,7 +181,7 @@ Portfolio:hover {
   li a {
       color: white;
       text-align: center;
-      padding: 14px 16px;
+      padding: 15px 15px;
       text-decoration: none;
   }
 
